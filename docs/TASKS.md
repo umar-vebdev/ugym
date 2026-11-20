@@ -22,7 +22,7 @@
 
 **ТЗ:** [uGym_Mobile_TZ.md](../specs/uGym_Mobile_TZ.md) (разделы 2, 6.3, 7.1), [uCraft_Design_System.md](../specs/uCraft_Design_System.md) (разделы 2–9, 20–22)
 
-- [ ] **M0-01** Инициализация Flutter-проекта `uGym` (`tj.ugym.client`), git-репозитория, строгих правил `analysis_options.yaml` и структуры каталогов `Feature-First`
+- [~] **M0-01** Инициализация Flutter-проекта `uGym` (`tj.ugym.client`), git-репозитория, строгих правил `analysis_options.yaml` и структуры каталогов `Feature-First`
   - Файлы: `pubspec.yaml`, `analysis_options.yaml`, `lib/main.dart`, структура `lib/core/` и `lib/features/`
   - Проверка: `flutter analyze && flutter test`
 - [ ] **M0-02** Подключение общего пакета `ugym_core` и реализация дизайн-токенов uCraft (Midnight & Cobalt: цвета Light/Dark, типографика Inter + Geist Mono, отступы 4px, радиусы, elevation, motion)
@@ -45,3 +45,4 @@
 - [ ] **M2 — Каталог + Заявки + Расписание** (Публичный каталог список + карта + фильтры, Карточка зала, Отзывы, Заявки на абонемент по `public_id`, Покупки/чеки, Расписание и запись)
 - [ ] **M3 — Дневник тренировок (`Workouts`)** (Упражнения, Библиотека и конструктор планов, Живая сессия + таймер отдыха, SQLite `drift` офлайн-очередь синхронизации с `Idempotency-Key`, Графики прогресса и 1RM Эпли)
 - [ ] **M4 — Полировка UX, QA и релиз в сторы** (Доступность, edge-cases офлайна, e2e-тесты, `PrivacyInfo.xcprivacy`, Data Safety, TestFlight / Google Play)
+
